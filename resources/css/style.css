@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Tajawal:wght@300;400;700&display=swap');
+
+/* colors of heades #6e0aef */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Tajawal', sans-serif;
+}
+
+h4 {
+  color: #6e0aef;
+}
+
+.btn {
+  width: 10rem;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  background-color: #6e0aef;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.btn a {
+  color: white;
+  font-size: 1.4rem;
+}
+
+.btn:hover {
+  background-color: #8638eb;
+  letter-spacing: 1px;
+}
+
+/* ============== START POINT ================== */
+
+/* ==========NAV BAR ======================== */
+nav {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1366px;
+  align-items: center;
+  margin: 0 auto;
+  /* background-color: bisque; */
+  padding: 0 5rem;
+}
+
+nav .logo {
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+}
+
+nav .logo .fa-mobile-screen {
+  color: #6e0aef;
+  padding: 0.75rem;
+}
+
+nav .logo h4 {
+  font-family: 'Lalezar', cursive, sans-serif;
+}
+
+nav .nav-items {
+  display: flex;
+}
+
+nav .nav-items .nav-item {
+  padding: 0 1rem;
+}
+
+nav .nav-link {
+  color: #4e547e;
+  font-size: 1.4rem;
+  transition: 0.4s ease;
+}
+
+nav .nav-link:hover {
+  color: #6e0aef;
+}
+nav .fa-bars {
+  display: none;
+}
+/* ===============HERO SECTION============================ */
+
+.hero {
+  background-color: #f8fcfc;
+}
+
+.hero .hero-section {
+  max-width: 1366px;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+
+.hero-section .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-section h4 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.hero-section .content h1 {
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+}
+
+.hero-section .content p {
+  color: rgb(29, 29, 29);
+  font-size: 1.4rem;
+}
+
+.hero-section .content span {
+  color: #6e0aef;
+}
+
+/* ================= FEATURES SECTION ========================== */
+
+.features {
+  padding: 2rem 0;
+  background-color: #f8f7fc;
+}
+
+.features .features-section {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 05rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.features-section h4 {
+  color: #6e0aef;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.features-section .qualites {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features-section .qualites .quality {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 2rem;
+  max-width: 17rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  border: solid 2px transparent;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.features-section .qualites .quality:hover {
+  border: solid 2px #6e0aef;
+}
+/* .quality .fa-shipping-fast {
+  font-size: 10rem;
+  background-color: aqua;
+  color: #6e0aef;
+  margin-bottom: 1rem;
+} */
+
+.qualites .quality h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.qualites .quality p {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #4e547e;
+}
+
+/* ===============newest-phones======================= */
+
+.newest-phones {
+  padding-top: 5rem;
+}
+
+.newest-phones .phones-section {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.phones-section h4 {
+  color: #6e0aef;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.phones-section .phones {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: flex-start;
+}
+.phones-section .phones .phone {
+  margin: auto;
+  /* background-color: #4e547e; */
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phone img {
+  transition: 0.4s ease-in-out;
+  margin-bottom: 1rem;
+}
+.phone img:hover {
+  transform: scale(0.9);
+}
+.phone h3 {
+  font-size: 1.6rem;
+}
+
+.phones-section button {
+  width: 15rem;
+  margin-bottom: 1rem;
+  align-self: center;
+}
+
+/* ===========footer section=============== */
+
+footer {
+  color: #f8f7fc;
+  height: 15vh;
+  padding: 2rem 0;
+  margin-top: 5rem;
+}
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+
+.footer-section p {
+  font-size: 2rem;
+  color: #000;
+  margin-bottom: 1rem;
+}
+.footer-section .socials {
+  margin-bottom: 1rem;
+}
+
+.footer-section .socials .fa-twitter,
+.fa-instagram,
+.fa-facebook {
+  margin-bottom: 1rem;
+  padding: 0 0.5rem;
+  font-size: 1.6rem;
+  color: #000;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.footer-section .socials .fa-twitter:hover,
+.fa-instagram:hover,
+.fa-facebook:hover {
+  color: #6e0aef;
+}
+
+/* ============= responsive design ========================= */
+
+@media (max-width: 1200px) {
+  * {
+    font-size: 85%;
+  }
+}
+
+@media (max-width: 1100px) {
+  * {
+    font-size: 75%;
+  }
+}
+
+@media (max-width: 1000px) {
+  * {
+    font-size: 65%;
+  }
+  .hero .hero-image img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 800px) {
+  * {
+    font-size: 65%;
+    text-align: center;
+  }
+
+  .hero .hero-image img {
+    display: none;
+  }
+
+  .hero-section {
+    align-items: center;
+    padding: 2rem 0;
+    width: 50%;
+  }
+
+  .hero .btn {
+    align-self: center;
+  }
+
+  .phones .phone img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .features-section .qualites {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero-section .content h1 {
+    font-size: 1rem;
+  }
+
+  .hero-section {
+    height: 50vh;
+  }
+  .phones .phone img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 450px) {
+  .phones-section .phones {
+    grid-template-columns: 1fr 1fr;
+  }
+  .phones .phone img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 380px) {
+  .phones-section .phones {
+    grid-template-columns: 1fr;
+  }
+
+  nav .fa-bars {
+    display: block;
+    font-size: 3rem;
+    cursor: pointer;
+  }
+
+  nav .nav-items {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 7vh;
+    flex-direction: column;
+    width: 100%;
+    background-color: #6e0aef;
+    padding: 2rem 0;
+  }
+
+  nav .nav-items .nav-item {
+    margin: 1rem 0;
+  }
+
+  nav .nav-items .active {
+    display: block;
+  }
+
+  nav .nav-items .nav-item a {
+    color: white;
+  }
+}
